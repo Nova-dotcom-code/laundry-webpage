@@ -6,7 +6,7 @@ body {
 }
 .hero-section {
     background-color: #1f2937;
-    width: 100%;
+    width: auto;
 }
 .navbar {
     display: flex;
@@ -36,11 +36,15 @@ body {
 .hero-content {
     display: flex;
     margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 
 }
 .hero-text {align-items: center;
     padding: 50px;
     width: 50%;
+    flex: 1;
 
 
 }
@@ -64,4 +68,10 @@ body {
 .cta-button:hover {
     background-color: #2563eb;
 }
-
+.hero-image {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
